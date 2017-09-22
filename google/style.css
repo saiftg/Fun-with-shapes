@@ -1,0 +1,14 @@
+
+
+#google-wrapper {
+	text-align: center;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+}

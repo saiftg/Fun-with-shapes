@@ -1,0 +1,101 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>CSS PRACTICE</title>
+
+	<style type="text/css">
+
+		#container {
+			width: 80%;
+			margin: auto;
+			background-color: black;
+			color: red;
+		}
+		
+		#the-block {
+			width: 50%;
+			display: inline-block;
+			background-color: blue;
+		}
+
+		#the-block2 {
+			width: 50%;
+			display: inline-block;
+		}
+
+		#i-am-inline {
+			background-color: green;
+			width: 100px;
+			margin-top: 1000px;
+			margin-left: 30px;
+
+		}
+
+		.meme-holder {
+			width: 300px;
+			border: 2px solid red;
+		}
+
+		.meme-holder img{
+			max-width: 100%;
+		}
+	</style>
+
+
+</head>
+<body>
+<!-- 
+	1. A block level elementm by default. takes up all the space to the right and to
+	the left as possible, internal to it parent
+	2/=. It can have height and width
+	3. Nothing can be on either side because it is 100%. If you change width it wil just add margin.
+	Blocks will igonre margin u add, because they are 100%
+	4. If you changethe size, it will still be 100%
+
+	<div class
+
+ -->
+ 	<div class="meme-holder">
+ 		<img src="http://starecat.com/content/wp-content/uploads/two-states-of-every-programmer-i-am-god-i-have-no-idea-what-im-doing.jpg">
+ 	</div>
+
+ 	<div class="meme-holder">
+ 		<img src="http://starecat.com/content/wp-content/uploads/two-states-of-every-programmer-i-am-god-i-have-no-idea-what-im-doing.jpg">
+ 	</div>
+
+ 	<div class="meme-holder">
+ 		<img src="http://starecat.com/content/wp-content/uploads/two-states-of-every-programmer-i-am-god-i-have-no-idea-what-im-doing.jpg">
+ 	</div>
+
+	<div id="container">
+		<div id="the-block">
+			Some text in block
+		</div>
+		<div id="the-block2">
+			M0o text
+		</div>
+
+<!-- 
+		Inline elements:
+		1. respect left and right padding, left and right marging but wil ignore top and bottom
+		2. COudlnt careless what is left or right
+		3.Witha. few exceptions(images) you cant tell an inline element how big to be
+		4. Will igronre all block level rules unless orced to do so -->
+
+
+
+		<span class="i-am-inline">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</span>
+	</div>
+
+
+
+
+</body>
+</html>
